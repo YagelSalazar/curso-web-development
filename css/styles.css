@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+}
+
+.item{
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  z-index: 10;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/10/16/47/moon-4919501_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.container::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.331);
+  z-index: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  font-size: 70px;
+}
+
+.fb{
+  color: rgb(23, 135, 228);
+}
+
+.fb:hover{
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.ig{
+  color: #e1306c;
+}
+.ig:hover{
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.git:hover{
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.tw{
+  color: rgb(69, 169, 199);
+}
+
+.tw:hover{
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+h1{
+  z-index: 10;
+}
