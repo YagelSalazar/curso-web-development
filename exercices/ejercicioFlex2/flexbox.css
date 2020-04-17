@@ -49,3 +49,206 @@
 
 	/* * flexbox css */
 }
+
+/* * ejercicio 1 
+
+.padre{
+	display: flex;
+	flex-direction: column;
+}
+
+*/
+
+/* * ejercicio 2
+
+.padre{
+	display: flex;
+}
+*/
+
+/* * ejercicio 3 
+
+.padre{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column-reverse;
+}
+*/
+
+/* * ejercicio 4 
+
+.padre{
+	display: flex;
+	justify-content: center;
+}
+*/
+
+/* * ejercicio 5 
+
+.padre{
+	display: flex;
+	justify-content: flex-end;
+}
+*/
+
+/* * ejercicio 6 
+
+.padre{
+	display: flex;
+	align-items: center;
+}
+*/
+
+/* * ejercicio 7 
+
+.padre{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+*/
+
+/* * ejercicio 8 
+
+.padre{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+*/
+
+/* * ejercicio 9
+
+.padre{
+	display: flex;
+	align-items: flex-end;
+}
+*/
+
+/* * ejercicio 10
+
+.padre{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+*/
+
+/* * ejercicio 11
+
+.padre{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+*/
+
+/* * ejercicio 12
+
+.padre{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+*/
+
+/* * ejercicio 13 
+
+.padre{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+*/
+
+/* * ejercicio 14 
+
+.padre{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+*/
+
+/* * ejercicio 15 
+
+.padre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+*/
+
+/* * ejercicio 16 
+
+.padre{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+*/
+
+/* * ejercicio 17 
+
+.padre{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-direction: column;
+}
+*/
+
+/* * ejercicio 18 
+
+.padre{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+*/
+
+/* * ejercicio 19 
+
+.padre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+*/
+
+/* * ejercicio 20 
+
+.padre{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+*/
+
+/* * ejercicio 21 
+
+.padre{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+*/
+
+/* * ejercicio 22 
+
+.padre{
+	display: flex;
+	justify-content: center;
+}
+
+.hijo2, .hijo4{
+	align-self: center;
+}
+
+.hijo3{
+	align-self: flex-end;
+}
+*/
