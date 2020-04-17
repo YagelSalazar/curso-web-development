@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.plano-cartesiano {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	margin: 0;
+}
+
+.eje-x {
+	width: 100%;
+	height: 2px;
+	background-color: red;
+	position: absolute;
+	top: 50%;
+}
+
+.eje-y {
+	width: 2px;
+	height: 100%;
+	background-color: blue;
+	position: absolute;
+	left: 50%;
+}
+
+/*  * iniciar flexbox: display: flex;
+    * dirección: flex-direction: < row(por default) | column | column-reverse | row-reverse >;
+    * eje y: justify-content: < flex-start | center | flex-end | space-around | space-evenly | space-between >; */
+
+.padre {
+	width: 100%;
+	height: 100%;
+
+	/* * flexbox css */
+}
+
+.hijo {
+	width: 100px;
+	height: 100px;
+	color: #fff;
+	font-size: 50px;
+	background: #e74c3c;
+
+	/* * flexbox css */
+}

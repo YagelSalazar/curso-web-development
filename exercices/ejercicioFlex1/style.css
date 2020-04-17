@@ -33,3 +33,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* Escribe tu código CSS a partir de aquí. No modifiques los estilos que están arriba de esta línea  */
+
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caja{
+  width: calc(100%/3);
+}

@@ -1,0 +1,39 @@
+/* Estilos por default que tendrán los elementos para que sean visibles (no modificar) */
+
+
+.caja {
+  color:white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+.container {
+  min-height:100vh;
+}
+
+/* Colores para cada caja */
+.caja1 { background:#1abc9c;}
+.caja2 { background:#3498db;}
+.caja3 { background:#9b59b6;}
+.caja4 { background:#34495e;}
+.caja5 { background:#f1c40f;}
+.caja6 { background:#e67e22;}
+.caja7 { background:#e74c3c;}
+.caja8 { background:#bdc3c7;}
+.caja9 { background:#2ecc71;}
+.caja10 { background:#16a085;}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.bigger{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
